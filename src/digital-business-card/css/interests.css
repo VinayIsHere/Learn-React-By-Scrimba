@@ -1,0 +1,15 @@
+.Interest{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.content{
+    color: #DCDCDC;
+    margin: 0px;
+}

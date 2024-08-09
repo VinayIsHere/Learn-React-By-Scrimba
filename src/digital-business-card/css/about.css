@@ -1,0 +1,15 @@
+.About{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.IntroHeader{
+    color: #F5F5F5;
+    margin-bottom: 5px;
+}
+
+.Intro{
+    color: #DCDCDC;
+    margin: 0px;
+}

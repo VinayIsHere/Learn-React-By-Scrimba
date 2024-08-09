@@ -1,0 +1,7 @@
+.cards--list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
