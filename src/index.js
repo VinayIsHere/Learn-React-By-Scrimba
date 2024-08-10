@@ -4,13 +4,15 @@ import './index.css';
 //import DigitalBusinessCardApp from './DigitalBusinessCardApp';
 import reportWebVitals from './reportWebVitals';
 import AirBnbExperienceApp from './AirBnbExperienceApp';
+import TravelJournelApp from './TravelJournelApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
       {/*<DigitalBusinessCardApp />*/}
-      <AirBnbExperienceApp />
+      {/* <AirBnbExperienceApp /> */}
+      <TravelJournelApp />
     </div>
   </React.StrictMode>
 );

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.card{
+    width: 550px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: -6px 0 white, 6px 0 white, 0 7px 5px -2px rgba(0, 0, 0, 0.1);;
+}
+
+.card--image{
+    width: 126px;
+    height: 168px;
+}
+
+.card--details{
+    display: flex;
+    flex-direction: column;
+}
+
+.card--header{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.locationicon{
+    width: 7px;
+    height: 10px;
+    margin-left: 8px;
+}
+
+.card--location {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 12px; 
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card--url {
+    color: #918E9B; /* Set the color of the URL text */
+}
+
+.card--title{
+    font-size: 20px; /* Adjust as needed */
+    margin-top: 0; /* Remove any extra space at the top */
+    margin-left: 8px;
+    margin-bottom: 16px; /* Space below the title if needed */
+}
+
+.card--experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.card--date{
+    margin-left: 8px;
+}
+
+.card--description{
+    margin-left: 8px;
+    margin-top: 8px;
+    color: #2B283A;
+
+    font-family: 'Inter';
+    font-weight: 50;
+}
