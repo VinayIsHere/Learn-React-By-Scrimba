@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import DigitalBusinessCardApp from './DigitalBusinessCardApp';
 import reportWebVitals from './reportWebVitals';
-import AirBnbExperienceApp from './AirBnbExperienceApp';
-import TravelJournelApp from './TravelJournelApp';
+//import DigitalBusinessCardApp from './DigitalBusinessCardApp';
+//import AirBnbExperienceApp from './AirBnbExperienceApp';
+//import TravelJournelApp from './TravelJournelApp';
+import MemeGeneratorApp from './MemeGeneratorApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,8 @@ root.render(
     <div>
       {/*<DigitalBusinessCardApp />*/}
       {/* <AirBnbExperienceApp /> */}
-      <TravelJournelApp />
+      {/*<TravelJournelApp /> */}
+      <MemeGeneratorApp />
     </div>
   </React.StrictMode>
 );
