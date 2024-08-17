@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 //import AirBnbExperienceApp from './AirBnbExperienceApp';
 //import TravelJournelApp from './TravelJournelApp';
 //import MemeGeneratorApp from './MemeGeneratorApp';
-import ReactFactsApp from './ReactFactsApp';
+//import ReactFactsApp from './ReactFactsApp';
+import MarkdownNotesApp from './MarkdownNotesApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
       {/* <AirBnbExperienceApp /> */}
       {/*<TravelJournelApp /> */}
       {/*<MemeGeneratorApp /> */}
-      <ReactFactsApp />
+      {/*<ReactFactsApp /> */}
+      <MarkdownNotesApp />
     </div>
   </React.StrictMode>
 );
