@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 //import TravelJournelApp from './TravelJournelApp';
 //import MemeGeneratorApp from './MemeGeneratorApp';
 //import ReactFactsApp from './ReactFactsApp';
-import MarkdownNotesApp from './MarkdownNotesApp';
+//import MarkdownNotesApp from './MarkdownNotesApp';
+import TenziesApp from './tenziesApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
       {/*<TravelJournelApp /> */}
       {/*<MemeGeneratorApp /> */}
       {/*<ReactFactsApp /> */}
-      <MarkdownNotesApp />
+      {/*<MarkdownNotesApp /> */}
+      <TenziesApp />
     </div>
   </React.StrictMode>
 );
